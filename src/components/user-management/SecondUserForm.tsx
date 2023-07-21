@@ -28,7 +28,7 @@ export const SecondUserForm: FC<SecondUserFormProps> = () => {
 
               <label htmlFor="nicename" className="w-1/2  flex flex-col gap-1">
                 <span>
-                  Nice Name<strong className="text-red-600">*</strong>
+                  Nice Name <strong className="text-red-600">*</strong>
                 </span>
                 <input className="w-full border border-gray-400 text-l px-3 py-2 rounded-md focus:bg-gray-100 outline-none transition-all mr-0" />
               </label>

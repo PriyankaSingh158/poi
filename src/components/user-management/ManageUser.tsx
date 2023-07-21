@@ -1,4 +1,15 @@
+import { FC, useState } from "react";
+import { BiPencil, BiTrash } from "react-icons/bi";
+
 export const ManageUser = () => {
+  const [heading, setHeading] = useState("Manage User");
+  const [curId, setCurId] = useState("");
+
+  const [showModal, setShowModal] = useState(false);
+
+  const closeModal = () => setShowModal(false);
+  const openModal = () => setShowModal(true);
+
   return (
     <>
       <div className="fixed top-0 left-0 z-10 w-full">

@@ -43,6 +43,14 @@ export const Groups = () => {
             </div>
           </form>
         </div>
+        <div className="self-end flex items-center gap-3">
+          <button className="py-2 px-4 bg-blue-500 rounded-md text-white">
+            Previous
+          </button>
+          <button className=" py-2 px-4 bg-blue-500 rounded-md text-white">
+            Next
+          </button>
+        </div>
       </div>
     </>
   );

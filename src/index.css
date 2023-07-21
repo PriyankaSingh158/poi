@@ -1,3 +1,22 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .gradient {
+    background: linear-gradient(180deg, rgb(32, 32, 255), rgb(180, 213, 255));
+  }
+  .shortcut_link {
+    @apply text-lg capitalize inline-block border-gray-300 bg-white text-cyan-900 shadow-md py-3 px-5 border rounded-md shadow-cyan-100 hover:translate-y-[-3px] active:translate-y-[1px] active:scale-[1.02] hover:scale-[1.04] transition-all text-center;
+  }
+
+  .checkbox:checked + span {
+    @apply after:opacity-100;
+  }
+
+  .num::-webkit-outer-spin-button,
+  .num::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+}

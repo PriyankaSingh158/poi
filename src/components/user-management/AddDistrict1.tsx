@@ -31,7 +31,7 @@ export const AddDistrict1 = () => {
                   onChange={(e) => setState(e.target.value)}
                   name=""
                   id=""
-                  className="w-full border px-3 py-1 rounded-md text-md self-center border-gray-400 text-gray-900 bg-white cursor-pointer"
+                  className="w-full border px-3 py-1 rounded-md  self-center border-gray-400 text-gray-900 bg-white cursor-pointer"
                 >
                   <option value="">Select state</option>
                   <option value="faridabad">faridabad</option>
@@ -58,7 +58,7 @@ export const AddDistrict1 = () => {
                   onChange={(e) => setStatus(e.target.value)}
                   name=""
                   id=""
-                  className="w-full border px-3 py-1 rounded-md text-md self-center border-gray-400 text-gray-900 bg-white cursor-pointer"
+                  className=" w-full border px-3 py-1 rounded-md  self-center border-gray-400 text-gray-900 bg-white cursor-pointer"
                 >
                   <option value="">Select Status</option>
                   <option value="1">active</option>
